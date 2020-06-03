@@ -1,5 +1,5 @@
 // TODO: Write code to define and export the Engineer class.  HINT: This class should inherit from Employee.
-const Employee = require("./lib/Employee.js");
+const Employee = require("../lib/Employee");
 
 class Engineer extends Employee {
     constructor(name, id, email, github) {
@@ -14,16 +14,16 @@ class Engineer extends Employee {
     getGithub() {
 
 
-    printInfo() {
+      printInfo() {
         console.log(`The getGithub method worked! This person's GigHub is ${this.github}`);
     }    
     
     }
 
     getRole() {
+    
 
-
-    console.log("The getRole method worked!");
+      console.log("The getRole method worked!");
     }
 
 }
